@@ -28,11 +28,7 @@ DEBUG = True
 # Add the BASE_URL setting and update ALLOWED_HOSTS
 BASE_URL = "https://urban-winner-w95pp9jrwj5cv67g-8000.app.github.dev/"
 
-ALLOWED_HOSTS = [
-    'localhost',
-    '127.0.0.1',
-    'urban-winner-w95pp9jrwj5cv67g-8000.app.github.dev'
-]
+ALLOWED_HOSTS = ['urban-winner-w95pp9jrwj5cv67g-8000.app.github.dev', 'localhost']
 
 
 # Application definition

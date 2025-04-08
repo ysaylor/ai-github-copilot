@@ -9,7 +9,7 @@ from django.http import JsonResponse
 
 @api_view(['GET'])
 def api_root(request, format=None):
-    base_url = settings.BASE_URL.rstrip('/')  # Ensure no trailing slash
+    base_url = "https://urban-winner-w95pp9jrwj5cv67g-8000.app.github.dev"  # Updated to codespace URL
     return JsonResponse({
         'users': f"{base_url}/api/users/?format=api",
         'teams': f"{base_url}/api/teams/?format=api",
