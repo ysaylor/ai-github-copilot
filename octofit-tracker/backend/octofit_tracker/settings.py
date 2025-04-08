@@ -25,7 +25,14 @@ SECRET_KEY = "django-insecure-p38s6z%8as#0h=mlq&pcrv$y^!&r+83!+b-w!)pe3m+i!!7%w$
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+# Add the BASE_URL setting and update ALLOWED_HOSTS
+BASE_URL = "https://urban-winner-w95pp9jrwj5cv67g-8000.app.github.dev/"
+
+ALLOWED_HOSTS = [
+    'localhost',
+    '127.0.0.1',
+    'urban-winner-w95pp9jrwj5cv67g-8000.app.github.dev'
+]
 
 
 # Application definition
